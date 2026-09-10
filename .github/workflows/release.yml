@@ -47,5 +47,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/student-ml-api:${{ steps.version.outputs.version }}
-            ghcr.io/${{ github.repository_owner }}/student-ml-api:latest
+            ghcr.io/mtalhaali47/student-ml-api:${{ steps.version.outputs.version }}
+            ghcr.io/mtalhaali47/student-ml-api:latest
